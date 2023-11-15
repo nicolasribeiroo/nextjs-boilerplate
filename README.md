@@ -13,7 +13,7 @@ This project is a boilerplate for my Next.JS projects
 
 ## Roadmap
 
-- [ ] ~Add OG image using @vercel/og
+- [ ] Add OG image using @vercel/og
 
 ## Running Locally
 
