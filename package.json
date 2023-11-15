@@ -1,0 +1,62 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"name": "@nicolasribeiroo/nextjs-boilerplate",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev -p 3001",
+		"build": "next build",
+		"start": "next start -p 3001",
+		"lint": "prettier --check . && cross-env TIMING=1 eslint --format=pretty src",
+		"format": "prettier --write . && cross-env TIMING=1 eslint --fix --format=pretty src",
+		"fmt": "pnpm run format"
+	},
+	"type": "module",
+	"directories": {
+		"lib": "src"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nicolasribeiroo/nextjs-boilerplate.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nicolasribeiroo/nextjs-boilerplate/issues"
+	},
+	"dependencies": {
+		"@radix-ui/react-icons": "^1.3.0",
+		"@radix-ui/react-slot": "^1.0.2",
+		"@t3-oss/env-nextjs": "^0.7.1",
+		"@vercel/analytics": "^1.1.1",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.0.0",
+		"lucide-react": "^0.292.0",
+		"next": "14.0.2",
+		"next-themes": "^0.2.1",
+		"react": "^18",
+		"react-dom": "^18",
+		"tailwind-merge": "^2.0.0",
+		"tailwindcss-animate": "^1.0.7",
+		"zod": "^3.22.4"
+	},
+	"devDependencies": {
+		"@next/bundle-analyzer": "^14.0.2",
+		"@types/lodash.merge": "^4.6.9",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"autoprefixer": "^10.0.1",
+		"cross-env": "^7.0.3",
+		"eslint": "^8.53.0",
+		"eslint-config-neon": "^0.1.57",
+		"eslint-formatter-pretty": "^6.0.0",
+		"lodash.merge": "^4.6.2",
+		"postcss": "^8",
+		"prettier": "^3.1.0",
+		"tailwindcss": "^3.3.0",
+		"typescript": "^5",
+		"vercel": "^32.5.4"
+	},
+	"engines": {
+		"node": ">=18.17.1"
+	}
+}
